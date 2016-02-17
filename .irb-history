@@ -1,0 +1,39 @@
+start_test_server_in_background
+query("LightFontEditText id:'editext_username'",:getText)
+start_test_server_in_background
+touch("ImageView index:3")
+touch("ImageView index:3")
+touch("ImageView index:2")
+query("RelativeLayout")
+query("RelativeLayout ImageView")
+query("RelativeLayout")
+query("ImageView")
+touch("ImageView index:4")
+touch("ImageView index:4")
+query("*")
+query("RelativeLayout id:'calendar_right_arrow'")
+touch("RelativeLayout id:'calendar_right_arrow'")
+touch("RelativeLayout id:'calendar_right_arrow'")
+touch("RelativeLayout id:'calendar_right_arrow'")
+touch("RelativeLayout id:'calendar_right_arrow'")
+touch("RelativeLayout id:'calendar_right_arrow'")
+touch("RelativeLayout id:'calendar_left_arrow'")
+touch("RelativeLayout id:'calendar_left_arrow'")
+touch("RelativeLayout id:'calendar_left_arrow'")
+touch("RelativeLayout id:'calendar_left_arrow'")
+start_test_server_in_background
+query("*")
+query("*")
+element_exists("TextView id:'message'")
+element_exists("TextView id:'message'")
+element_exists("TextView id:'message' text:'Please enter all the mandatory fields.'")
+start_test_server_in_background
+element_exists("TextView id:'message' text:'Please enter all the mandatory fields.'")
+element_exists("TextView id:'message' text:'Please enter all the '")
+query("*")
+quit
+start_test_server_in_background
+query("*")
+start_test_server_in_background
+query("*")
+query("*")
