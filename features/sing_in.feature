@@ -29,7 +29,7 @@ Scenario:  Remember user while Signing In
     Then I wait up to "10" seconds for the "Sign In" button to appear
     And I enter "test345@test.com" as the EmailId
     And I enter "123456789" as the Password
-    And I click on Remember Me check box 
+    And I click on Remember Me check box x
     And I press "Go" 
     Then the "OvulationCalender" activity should be open
     And I press "SETTINGS"
