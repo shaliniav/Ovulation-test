@@ -32,9 +32,20 @@ Scenario:  Existing  user signing up as new user  should show correct error mess
     And I enter "123456789" as the Password
     And I enter "123456789" as the Confirm Password 
     And I press "Go" 
+
+
+Scenario: New user can sign up 
+    Given I am on "Splash" screen
+    And I press "Sign Up With Email"
+    And I register as new user
     Then I see "GetStarted" screen 
 
-    
+
+
+
+
+
+
 
 
 
